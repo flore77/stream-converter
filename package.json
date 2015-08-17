@@ -1,0 +1,48 @@
+{
+  "name": "stream-converter",
+  "version": "0.0.1",
+  "description": "Converts anything to a Node.js ReadStream",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha",
+    "linter": "eslint ."
+  },
+  "pre-commit": [
+    "./node_modules/.bin/eslint ."
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flore77/stream-converter.git"
+  },
+  "keywords": [
+    "stream",
+    "convert",
+    "converter",
+    "array",
+    "buffer",
+    "string",
+    "object",
+    "path",
+    "streamify"
+  ],
+  "author": "Simion Florentin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flore77/stream-converter/issues"
+  },
+  "homepage": "https://github.com/flore77/stream-converter#readme",
+  "dependencies": {
+    "readable-stream": "^2.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "concat-stream": "^1.5.0",
+    "coveralls": "^2.11.4",
+    "eslint": "^1.1.0",
+    "istanbul": "^0.3.18",
+    "mocha": "^2.2.5",
+    "pre-git": "^0.6.2",
+    "tmp": "0.0.27"
+  }
+}

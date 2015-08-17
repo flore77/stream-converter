@@ -1,0 +1,6 @@
+.travis.yml
+.eslintrc
+.gitignore
+test
+examples
+coverage
